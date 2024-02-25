@@ -69,3 +69,34 @@
     text-transform: uppercase;
     padding-left: 150px;
 }
+
+.address{
+    background: pink;
+    width: 1320px;
+height: 482px;
+margin: 120px 250px;
+text-align: center;
+}
+.address .address-up{
+    padding-top: 100px;
+    margin-bottom: 48px;
+}
+.address-up span {
+    color: red;
+}
+.address-up{
+    color: #070211;
+font-size: 22px;
+font-weight: 600;
+text-transform: capitalize;
+}
+.address-low .address-btn{
+padding: 16px 32px;
+border-radius: 8px;
+background: #F00;
+color: #FFF;
+text-align: center;
+font-weight: 700;
+text-transform: uppercase;
+border: 0;
+}
