@@ -1,14 +1,22 @@
-.header-container{
 
-}
-.header-container img{
-
-}
 .banner{
-    padding: 50px 140px;
+    margin: 120px 250px;
     width: 1320px;
     height: 600px;
     border-radius: 16px;
+    background: url(./resources/Banner\ Image.png);
+}
+.banner-title{
+color: #FFF;
+text-align: center;
+font-size: 32px;
+font-weight: 400;
+}
+.banner .banner-big{
+color: #FFF;
+text-align: center;
+font-size: 52px;
+font-weight: 900;
 }
 .offer{
     margin: 120px 400px;
@@ -100,3 +108,61 @@ font-weight: 700;
 text-transform: uppercase;
 border: 0;
 }
+
+.circle{
+    background: #fff;
+    width: 1320px;
+height: 400px;
+margin: 120px 250px;
+display: flex;
+}
+.circle-left{
+    width: 33%;
+}
+.circle-left .circle-title{
+    margin-top: 70px;
+    margin-left: 0;
+    margin-bottom: 16px;
+    color: #F00;
+font-size: 24px;
+font-weight: 500;
+
+}
+.circle-left .circle-heading{
+    color: #070211;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+margin-bottom: 22px;
+}
+.circle-left .circle-para{
+    color: black;
+font-size: 20px;
+font-weight: 400;
+}
+.circle-middle{
+    width: 33%;
+}
+.circle-right{
+    width: 33%;
+}
+.circle-right .circle-date{
+color: #F00;
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 16px;
+}
+.circle-right .circle-right-para{
+    color: black;
+font-size: 20px;
+font-weight: 400;
+margin-bottom: 45px;
+}
+.circle-right .circle-right-img{
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    border-color: red;
+    border-width: 100%;
+}
+
