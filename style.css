@@ -45,8 +45,7 @@ font-weight: 900;
 .offer-photo{
     width: 802.9px;
     height: 500px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 120px 250px;
     display: block;
 }
 .welcome{
@@ -263,4 +262,80 @@ font-weight: 400;
 .subscribe-form, .contact, input[type="email"], textarea{
     padding: 15px 0;
     margin-right: 0px;
+}
+
+footer{
+    margin-top: 0px;
+    background: #000;
+    width: 1750px;
+height: 609px;
+}
+.footer-container{
+    display: flex;
+}
+.footer-column1, .footer-column2, .footer-column3{
+    width: 33%;
+
+}
+.column1-address{
+    color: #fff;
+    margin-bottom: 260px;
+font-size: 24px;
+font-weight: 500;
+}
+.footer-column1{
+    padding: 120px 0 0 140px;
+}
+.column1-rights{
+    color: #fff;
+font-size: 24px;
+font-weight: 500;
+}
+.footer-icons{
+    padding: 290px 0px 245px 0;
+}
+.footer-icons, .img17, .img18, .img19{
+    margin-right: 24px;
+}
+.footer-column3{
+    color: #fff;
+    padding: 120px 0 0 140px;
+}
+.column3-weblinks1{
+    display: flex;
+    align-items: center;
+}
+.column3-weblinks1 .phone-icon{
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+.column3-weblinks1 .phone-number{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+.column3-weblinks2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.web-icon{
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+.web-address{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+..column3-weblinks1, .column3-weblinks2{
+    gap: 0;
+}
+.footer-column3 p{
+    color: #FFF;
+font-size: 24px;
+font-weight: 500;
+margin-right: 200px;
 }
